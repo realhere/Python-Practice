@@ -25,10 +25,18 @@
 # input(提示文字) 以【字串的形態】取得使用者輸入
 n1=input("Enter a Number:")
 n2=input("Enter a Number:")
+n3=input("Enter a Number:")
+n4=input("Enter a Number:")
+n5=input("Enter a Number:")
 n1=int(n1) # int(資料) 將資料轉換成整數型態
 n2=int(n2)
-result=n1+n2
-print(result)
+n3=int(n3)
+n4=int(n4)
+n5=int(n5)
+list1=[n1,n2,n3,n4,n5]
+data=n1+n2+n3+n4+n5
+print("您輸入值的總和：",data)
+print("您輸入的最大值為：",max(list1))
 # 讓使用者輸入 5 個數字，1. 算總和 2. 哪個數字最大
 # 使用 List 列表處理
 # 回家看老師的網站教學影片用 1.5 倍快轉
