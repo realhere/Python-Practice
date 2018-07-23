@@ -23,14 +23,15 @@ def caculator():
         print("輸入的運算方式無效") 
 
 # 1.3  將以上兩個函式包裝進模組 core.py 中
-# import core
-# core.multiple()
-# core.caculator()
+import core
+core.multiple()
+core.caculator()
 
 # 1.4 將模組 core.py 包裝進封包 lib 中，並在主程式中正確呼叫運用。
-# import lib.core
-# lib.core.multiple()
-# lib.core.caculator()
+import lib.core
+lib.core.multiple()
+lib.core.caculator()
 
 # 2. 使用系統內建的模組 random 產生 1~100 間的亂數 （練習到官網找文件 - The Python Standard Library 9.6）
-lib.random.random(1,101)
+import random
+print(random.randint(1,100))
